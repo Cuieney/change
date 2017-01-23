@@ -106,7 +106,7 @@ Page( {
     var that = this;  
     that.setData( { currentTab: e.detail.current, playing:false,
         currentIndex:0   });  
-  
+
   },  
   /** 
    * 点击tab切换 
@@ -123,6 +123,7 @@ Page( {
         playing:false,
         currentIndex:0  
       })  
-    }  
+    } 
+
   }  
 }) 

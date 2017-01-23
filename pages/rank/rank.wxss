@@ -1,6 +1,5 @@
 .swiper-tab{  
-    width: 100%;  
-    border-bottom: 2rpx solid #777777;  
+    /*border-bottom: 2rpx solid #777777;  */
     text-align: center;  
     line-height: 80rpx;}  
 .swiper-tab-list{  font-size: 30rpx;  

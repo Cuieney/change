@@ -16,13 +16,13 @@
 
     <swiper-item>  
       <view style="height:100%">
-       <template is="msgItem" data="{{monthlist,currentIndex,playing,windowWidth}}" />
+       <template is="msgItem1" data="{{monthlist,currentIndex,playing,windowWidth}}" />
       </view>  
     </swiper-item>  
 
     <swiper-item>  
       <view style="height:100%"> 
-       <template is="msgItem" data="{{alllist,currentIndex,playing,windowWidth}}" />
+       <template is="msgItem2" data="{{alllist,currentIndex,playing,windowWidth}}" />
       </view>  
     </swiper-item>  
 </swiper>  
