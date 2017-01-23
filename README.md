@@ -5,3 +5,11 @@
 3.基本app功能实现了 刷新加载。toobar pulltorefresh
 4.里面也有微信小程序的基本用法
 ![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
+首页展示
+![Alt Text](https://github.com/Cuieney/change/tree/master/image/1.png)
+首页视频播放展示
+![Alt Text](https://github.com/Cuieney/change/tree/master/image/2.png)
+分类展示可以点击进去
+![Alt Text](https://github.com/Cuieney/change/tree/master/image/3.png)
+最后一个tab 分类
+![Alt Text](https://github.com/Cuieney/change/tree/master/image/4.png)
