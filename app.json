@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/category/category",
+    "pages/rank/rank",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "change",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/home-unselected@2x.png",
+      "selectedIconPath": "image/home-selected@2x.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/category/category",
+      "iconPath": "image/categories-unselected@2x.png",
+      "selectedIconPath": "image/categories-selected@2x.png",
+      "text": "分类"
+    },{
+      "pagePath": "pages/rank/rank",
+      "iconPath": "image/ranking-unselected@2x.png",
+      "selectedIconPath": "image/ranking-selected@2x.png",
+      "text": "排行"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

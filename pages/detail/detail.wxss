@@ -1,0 +1,46 @@
+.scroll-view_H{
+    white-space: nowrap;
+}
+.scroll-view-item{
+    height: 200px;
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+}
+.scroll-view-item_H{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+
+.Absolute-Center {  
+  width: 100%;  
+  height: 100%;   
+  position: inherit;  
+} 
+
+.describe-item{
+    text-align: center;
+    background: #fff;
+}
+
+.hide{
+    display:none
+}
+
+.item-style{ 
+ padding: 30rpx; 
+ font-size: 40rpx; 
+ text-align: center; 
+ border-top: 2rpx solid #eee; 
+} 
+.refresh-block { 
+ padding: 15px; 
+ text-align: center 
+} 
+.refresh-block image { 
+ width: 30px; 
+ height: 30px; 
+} 
+
+

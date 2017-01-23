@@ -1,0 +1,38 @@
+
+<view class="container" style="color:#000;width:100%; height:30%">
+
+ <navigator 
+ style="display: flex;align-items:center; justify-content:center;width: 100%; height:40%;background-size: 100%; background-image: url({{list[0].cover}});"
+ url="../detail/detail?url=https://api.change.so/v1/categories/2/videos.json">
+<view style="display: flex;align-items:center; justify-content:center;width: 100%; height:40%; ">
+      <text class="text">{{list[0].name}}</text>
+</view>
+</navigator>
+<view style="display: flex;flex-direction: row; width:100%; height:30%">
+     <navigator 
+     class="other" style=" background-size: 100%; background-image: url({{list[1].cover}});"
+     url="../detail/detail?url=https://api.change.so/v1/categories/9/videos.json">
+    <text class="text">{{list[1].name}}</text>
+    </navigator>
+
+    <navigator 
+     class="other" style=" background-size: 100%; background-image: url({{list[2].cover}});"
+     url="../detail/detail?url=https://api.change.so/v1/categories/4/videos.json">
+    <text class="text">{{list[2].name}}</text>
+     </navigator>
+</view>
+
+<view style="display: flex;flex-direction: row; width:100%; height:30%;">
+<navigator 
+     class="other" style=" background-size: 100%; background-image: url({{list[3].cover}});"
+     url="../detail/detail?url=https://api.change.so/v1/categories/11/videos.json">
+    <text class="text">{{list[3].name}}</text>
+    </navigator>
+
+    <navigator 
+     class="other" style=" background-size: 100%; background-image: url({{list[4].cover}});"
+     url="../detail/detail?url=https://api.change.so/v1/categories/5/videos.json">
+    <text class="text">{{list[4].name}}</text>
+    </navigator>
+</view>
+</view>

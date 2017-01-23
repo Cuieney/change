@@ -1,0 +1,24 @@
+<template name="msgItem">
+
+        <scroll-view scroll-y="true" style="height:100%;">
+                <view wx:for="{{weeklist}}" wx:for-item="item" wx:for-index="index">
+                <view class="scroll-view-item bc_blue" style="height:200px;background-image: url({{item.poster}});">
+                  <view wx:if="{{playing&&index==currentIndex}}" class="Absolute-Center" style="height:200px;width:{{windowWidth}}px;">
+                      <video id="myVideo" src="{{item.url}}" binderror="videoErrorCallback" class="Absolute-Center" style="height:200px;width:{{windowWidth}}px;"/>
+                  </view>
+                  <view wx:else="" class="Absolute-Center" style=" height:200px;background-image: url(/image/mask.png);" bindtap="play" data-title="{{index}}"  >
+                      <view style="width:100%; height:30%"/>
+
+                      <image style=" width: 50px; height:50px; margin:0 auto;" src="/image/play_alpha.png"></image>
+                  </view>
+                </view>
+                  <view class="describe-item">
+                    <text style="color:#414141;font-size:15px;font-family: Georgia;font-weight: bold;">{{item.name}}</text>
+                  </view>
+                  <view class="describe-item">
+                    <text style="color:#9a9a9a;font-size:10px">{{item.desc}}</text>
+                  </view>
+                </view>
+            </scroll-view>
+
+</template>
