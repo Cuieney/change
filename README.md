@@ -1,5 +1,6 @@
 # change
 模仿开眼视频小程序
+http://www.jianshu.com/p/71aaafda9b2d 
 1.接口通过charles 抓取change的接口
 2.代码网络请求部分比较乱，没有进行友好的封装。
 3.基本app功能实现了 刷新加载。toobar pulltorefresh
