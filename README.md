@@ -1,17 +1,15 @@
-# change
-模仿开眼视频小程序
-http://www.jianshu.com/p/71aaafda9b2d 
-1.接口通过charles 抓取change的接口
-2.代码网络请求部分比较乱，没有进行友好的封装。
-3.基本app功能实现了 刷新加载。toobar pulltorefresh
-4.里面也有微信小程序的基本用法
-![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
-首页展示
+# Change 小程序
 
-![Alt Text](https://github.com/Cuieney/change/blob/master/1.png)
-首页视频播放展示
-![Alt Text](https://github.com/Cuieney/change/blob/master/2.png)
-分类展示可以点击进去
-![Alt Text](https://github.com/Cuieney/change/blob/master/3.png)
-最后一个tab 分类
-![Alt Text](https://github.com/Cuieney/change/blob/master/4.png)
+![Change icon](https://github.com/Cuieney/change/blob/master/change.gif)
+
+## Overview
+1. 模仿微信小程序开眼视频
+2. 接口通过charles抓取 ios change app
+3. 网络请求没有友好的封装
+4. 基本app功能都有实现
+5. toolbar pulltorefresh 功能
+
+### Describe
+最近写了一篇关于 小程序的文章，欢迎来讨论 
+http://www.jianshu.com/p/71aaafda9b2d
+
