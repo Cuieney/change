@@ -10,6 +10,7 @@
 5. toolbar pulltorefresh 功能
 
 ### Describe
-最近写了一篇关于 小程序的文章，欢迎来讨论 
-http://www.jianshu.com/p/71aaafda9b2d,侵权请联系删除。
+最近写了一篇关于 小程序的文章，欢迎来讨论,侵权请联系删除。
+http://www.jianshu.com/p/71aaafda9b2d
+
 
