@@ -11,5 +11,5 @@
 
 ### Describe
 最近写了一篇关于 小程序的文章，欢迎来讨论 
-http://www.jianshu.com/p/71aaafda9b2d
+http://www.jianshu.com/p/71aaafda9b2d,侵权请联系删除。
 
